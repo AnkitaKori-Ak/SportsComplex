@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SportsComplexdbDataSet" targetNamespace="http://tempuri.org/SportsComplexdbDataSet.xsd" xmlns:mstns="http://tempuri.org/SportsComplexdbDataSet.xsd" xmlns="http://tempuri.org/SportsComplexdbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SportsComplexdbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SportsComplexdbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SportsComplex.Properties.Settings.GlobalReference.Default.SportsComplexdbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AccessoriesTabTableAdapter" GeneratorDataComponentClassName="AccessoriesTabTableAdapter" Name="AccessoriesTab" UserDataComponentName="AccessoriesTabTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SportsComplexdbConnectionString (Settings)" DbObjectName="SportsComplexdb.dbo.AccessoriesTab" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Category FROM dbo.AccessoriesTab</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Category" DataSetColumn="Category" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SportsComplexdbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="SportsComplexdbDataSet" msprop:Generator_DataSetName="SportsComplexdbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AccessoriesTab" msprop:Generator_RowEvHandlerName="AccessoriesTabRowChangeEventHandler" msprop:Generator_RowDeletedName="AccessoriesTabRowDeleted" msprop:Generator_RowDeletingName="AccessoriesTabRowDeleting" msprop:Generator_RowEvArgName="AccessoriesTabRowChangeEvent" msprop:Generator_TablePropName="AccessoriesTab" msprop:Generator_RowChangedName="AccessoriesTabRowChanged" msprop:Generator_RowChangingName="AccessoriesTabRowChanging" msprop:Generator_TableClassName="AccessoriesTabDataTable" msprop:Generator_RowClassName="AccessoriesTabRow" msprop:Generator_TableVarName="tableAccessoriesTab" msprop:Generator_UserTableName="AccessoriesTab">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Category" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_UserColumnName="Category" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

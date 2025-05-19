@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|d:\\ankita\\sem-5 project\\adarsh_ankita(mainproject)\\adarsh_ankita(mainproject)\\sportscomplex\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\sports_admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:sports_admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\sports_admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:sports_admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\batchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:batchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\batchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:batchdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\supplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:supplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\supplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:supplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\supplierpayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}|SportsComplex.csproj|solutionrelative:supplierpayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BatchDetails.cs",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\BatchDetails.cs",
+              "RelativeDocumentMoniker": "BatchDetails.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\BatchDetails.cs",
+              "RelativeToolTip": "BatchDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:14:27.732Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BatchDetails.cs [Design]",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\BatchDetails.cs",
+              "RelativeDocumentMoniker": "BatchDetails.cs",
+              "ToolTip": "D:\\Adarsh_Ankita(MainProject)\\SportsComplex\\BatchDetails.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Adarsh_Ankita(MainProject)\\SportsComplex\\BatchDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T13:47:23.12Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T04:55:23.536Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sports_Admission.cs",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Sports_Admission.cs",
+              "RelativeDocumentMoniker": "Sports_Admission.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Sports_Admission.cs",
+              "RelativeToolTip": "Sports_Admission.cs",
+              "ViewState": "AQIAAEsBAAAAAAAAAAAswIQBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:23:43.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sports_Admission.cs [Design]",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Sports_Admission.cs",
+              "RelativeDocumentMoniker": "Sports_Admission.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\Sports_Admission.cs [Design]",
+              "RelativeToolTip": "Sports_Admission.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:23:38.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SupplierPayment.Designer.cs",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.Designer.cs",
+              "RelativeDocumentMoniker": "SupplierPayment.Designer.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.Designer.cs",
+              "RelativeToolTip": "SupplierPayment.Designer.cs",
+              "ViewState": "AQIAAIwBAAAAAAAAAAAtwKEBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:59:07.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupplierPayment.cs",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.cs",
+              "RelativeDocumentMoniker": "SupplierPayment.cs",
+              "ToolTip": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.cs",
+              "RelativeToolTip": "SupplierPayment.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAApwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:36:27.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SupplierPayment.cs [Design]",
+              "DocumentMoniker": "D:\\Ankita\\Sem-5 Project\\Adarsh_Ankita(MainProject)\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.cs",
+              "RelativeDocumentMoniker": "SupplierPayment.cs",
+              "ToolTip": "D:\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Adarsh_Ankita(MainProject)\\SportsComplex\\SupplierPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T05:36:08.175Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

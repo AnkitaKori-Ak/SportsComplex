@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B6B51F5-F8C1-4F91-8ECA-86BB528D39DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SportsComplex</RootNamespace>
+    <AssemblyName>SportsComplex</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BatchDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchDetails.Designer.cs">
+      <DependentUpon>BatchDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventCrystal.Designer.cs">
+      <DependentUpon>EventCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events.Designer.cs">
+      <DependentUpon>Events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacultyCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FacultyCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyCrystal.Designer.cs">
+      <DependentUpon>FacultyCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryProductCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventoryProductCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InventoryProductCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryProductCrystal.Designer.cs">
+      <DependentUpon>InventoryProductCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPaymentCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlayerPaymentCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlayerPaymentCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerPaymentCrystal.Designer.cs">
+      <DependentUpon>PlayerPaymentCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductInventory.Designer.cs">
+      <DependentUpon>ProductInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenace_Repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenace_Repair.Designer.cs">
+      <DependentUpon>Maintenace_Repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Platerscrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Platerscrystal.Designer.cs">
+      <DependentUpon>Platerscrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="player.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>player.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PlayerPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayerPayment.Designer.cs">
+      <DependentUpon>PlayerPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesOrder.Designer.cs">
+      <DependentUpon>SalesOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesOrderCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalesOrderCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesOrderCrystal.Designer.cs">
+      <DependentUpon>SalesOrderCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsClubs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportsClubs.Designer.cs">
+      <DependentUpon>SportsClubs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsComplexdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SportsComplexdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SportsFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportsFaculty.Designer.cs">
+      <DependentUpon>SportsFaculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sports_Admission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sports_Admission.Designer.cs">
+      <DependentUpon>Sports_Admission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SupplierCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierCrystal.Designer.cs">
+      <DependentUpon>SupplierCrystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierDetails.Designer.cs">
+      <DependentUpon>SupplierDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierPayment.Designer.cs">
+      <DependentUpon>SupplierPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierPaymentCry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SupplierPaymentCry.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuppPaymentCrystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppPaymentCrystal.Designer.cs">
+      <DependentUpon>SuppPaymentCrystal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BatchDetails.resx">
+      <DependentUpon>BatchDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EventCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventCrystal.resx">
+      <DependentUpon>EventCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events.resx">
+      <DependentUpon>Events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FacultyCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyCrystal.resx">
+      <DependentUpon>FacultyCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryProductCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InventoryProductCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryProductCrystal.resx">
+      <DependentUpon>InventoryProductCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerPaymentCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PlayerPaymentCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerPaymentCrystal.resx">
+      <DependentUpon>PlayerPaymentCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductInventory.resx">
+      <DependentUpon>ProductInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenace_Repair.resx">
+      <DependentUpon>Maintenace_Repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platerscrystal.resx">
+      <DependentUpon>Platerscrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="player.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>player.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayerPayment.resx">
+      <DependentUpon>PlayerPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SalesOrder.resx">
+      <DependentUpon>SalesOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesOrderCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesOrderCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesOrderCrystal.resx">
+      <DependentUpon>SalesOrderCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsClubs.resx">
+      <DependentUpon>SportsClubs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsFaculty.resx">
+      <DependentUpon>SportsFaculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sports_Admission.resx">
+      <DependentUpon>Sports_Admission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierCrystal.resx">
+      <DependentUpon>SupplierCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierDetails.resx">
+      <DependentUpon>SupplierDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierPayment.resx">
+      <DependentUpon>SupplierPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplierPaymentCry.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SupplierPaymentCry.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuppPaymentCrystal.resx">
+      <DependentUpon>SuppPaymentCrystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SportsComplexdbDataSet.xsc">
+      <DependentUpon>SportsComplexdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SportsComplexdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SportsComplexdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SportsComplexdbDataSet.xss">
+      <DependentUpon>SportsComplexdbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logodone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo de futebol abstrato gradiente _ Vetor Grátis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invoiceupperpart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flyer.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyeicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ioginicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sports.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparentlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whitelogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainpage.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football image.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sport Active Competitive Game Icons.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sportitemjpeg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sportitemjpeg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg11-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg-preview122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correctsportsicon_-removebg11-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check_Mark_Button_icons_for_free_download___Freepik-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2024-10-07_at_23.00.37_0215a2a9-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2024-10-07_at_23.00.37_0215a2a9-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default_User_Icon_Silhouette_White_-_ZIDTEK-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refreshments_White_Transparent__White_Refresh_Icon__Refresh_Icons__White_Icons__White_Refresh_PNG_Image_For_Free_Download-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
